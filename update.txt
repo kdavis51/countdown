@@ -1,0 +1,12 @@
+
+Update software:
+sudo apt-get update && sudo apt-get dist-upgrade
+sudo reboot now
+
+PI Firmware upgrades:
+sudo rpi-update  
+sudo reboot now
+
+
+
+	
