@@ -11,6 +11,7 @@ Setup PI to automatically login:
 	GUI
 	[Menu] --> [Preferences] --> [Raspberry Pi Configuration]
 
+---------------------------------------------------------------------------------------------------------------------------------------
 
 Here's how to run a python program at startup with a terminal session console visible after bootup
 
@@ -28,3 +29,10 @@ Here's how to run a python program at startup with a terminal session console vi
     	y
 
 4) reboot for verification	
+
+---------------------------------------------------------------------------------------------------------------------------------------
+If you find the change your ssh password annoying and want to keep the same password, just remove these 3 files and call it a day
+
+sudo rm -rf /etc/profile.d/sshpwd.sh
+sudo rm -rf /etc/xdg/lxsession/LXDE-pi/sshpwd.sh
+sudo rm -rf /etc/xdg/autostart/pprompt.desktop
