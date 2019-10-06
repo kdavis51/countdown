@@ -7,6 +7,8 @@ PI Firmware upgrades:
 	sudo rpi-update  
 	sudo reboot now
 
-
+Setup PI to automatically login:
+	GUI
+	[Menu] --> [Preferences] --> [Raspberry Pi Configuration]
 
 	
