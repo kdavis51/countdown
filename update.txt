@@ -21,7 +21,7 @@ Here's how to run a python program at startup with a terminal session console vi
 
 2)  enter this command at at the end of the file (/home/pi/Documents/runme.py is the path to python program)
 
-	@lxterminal -e sudo python /home/pi/Documents/runme.py
+	@lxterminal -e sudo python3 /home/pi/Documents/runme.py
 
 3) save program
 
