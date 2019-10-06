@@ -10,8 +10,8 @@ update.txt
 
 runme.py
 
-	this is a copy of the latest working code.   runme.py must be stored in /home/pi/Documents folder if you want to use 
-	autologin & run features
+	this is a copy of the latest working code.   runme.py must be stored in /home/pi/Documents folder 
+	if you want to use autologin & run features
 
 Wiring.jpg
 
